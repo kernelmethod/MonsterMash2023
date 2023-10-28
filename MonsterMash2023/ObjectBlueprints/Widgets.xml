@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <object Name="Kernelmethod_MM23_Waygate Spawner" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_Waygate.rpm" Width="3" Height="1" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_FungiSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_Fungi" Range="5" />
+  </object>
+
+  <!--
+    ********************************
+    Zone chunks for waygate rooms
+    ********************************
+  -->
+  <object Name="Kernelmethod_MM23_Widget Placement" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_WidgetPlacement.rpm" Width="18" Height="8" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_3x3 Zone Chunk" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_3x3 Zone Chunks" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_6x5 Zone Chunk" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_6x5 Zone Chunks" />
+  </object>
+
+  <!--
+    3x3 zone chunks
+  -->
+
+  <object Name="Kernelmethod_MM23_Hookah Spot" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_HookahSpot.rpm" Width="3" Height="3" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Tinker Workshop" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_TinkersWorkshop.rpm" Width="3" Height="3" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Library 3x3" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_Library3x3.rpm" Width="3" Height="3" />
+  </object>
+
+  <!--
+    6x5 zone chunks
+  -->
+
+  <object Name="Kernelmethod_MM23_Medbay" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_Medbay.rpm" Width="6" Height="5" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Large Hookah Spot" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_LargeHookahSpot.rpm" Width="6" Height="5" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Library 6x5" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_Library6x5.rpm" Width="6" Height="5" />
+  </object>
+
+  <!--
+    ***************
+    Item spawners
+    ***************
+  -->
+
+  <!-- Generic -->
+  <object Name="Kernelmethod_MM23_ScienceObjectSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_ScienceObjects" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_SeatSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_Seats" />
+  </object>
+
+  <!-- Hookah spots -->
+  <object Name="Kernelmethod_MM23_HookahSpotSeatSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_HookahSpotSeats" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_HookahSpotRefreshmentsSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_HookahSpotRefreshments" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_HookahSpotObjectSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_HookahSpotObjects" />
+  </object>
+
+  <!-- Tinker workshops -->
+  <object Name="Kernelmethod_MM23_TinkerWorkshopObjectSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_TinkerWorkshopObjects" />
+  </object>
+</objects>

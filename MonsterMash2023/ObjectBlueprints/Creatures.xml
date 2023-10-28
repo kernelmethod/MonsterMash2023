@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <object Name="Kernelmethod_MM23_BaseFungalEgregore" Inherits="SapientMutatedFungus">
+    <part Name="Render" DisplayName="fungal egregore" Tile="Kernelmethod_MM23/Merchant.png" ColorString="&amp;w" DetailColor="w" />
+    <part Name="Brain" Mobile="true" />
+    <stat Name="Level" Value="30" />
+    <stat Name="AV" Value="3" />
+    <stat Name="Hitpoints" Value="180" />
+    <!-- For versions < 2.0.206.0 -->
+    <skill Name="Dual_Wield" />
+    <skill Name="Dual_Wield_Offhand_Strikes" />
+    <!-- For versions > 2.0.206.0 -->
+    <skill Name="Multiweapon_Proficiency" />
+    <skill Name="Multiweapon_Expertise" />
+    <inventoryobject Blueprint="Kernelmethod_MM23_Natural Extrasensory Tentacles" />
+    <tag Name="ExcludeFromDynamicEncounters" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Natural Extrasensory Tentacles" Inherits="Kernelmethod_MM23_Extrasensory Tentacles">
+    <mixin Name="Kernelmethod_MM23_Natural Fungal Equipment" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Spiking Egregore" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
+    <part Name="Render" DisplayName="{{nanoneuro|spiking}} fungal egregore" Tile="Kernelmethod_MM23/Spiker.png" ColorString="&amp;w" DetailColor="m" />
+    <stat Name="Ego" sValue="20,(t-1)d2" />
+    <stat Name="AV" Value="8" />
+    <skill Name="LongBlades" />
+    <skill Name="LongBladesProficiency" />
+    <skill Name="LongBladesSwipe" />
+    <skill Name="LongBladesLunge" />
+    <inventoryobject Blueprint="Kernelmethod_MM23_Natural Fungal Brainspike" Number="2" />
+    <property Name="Role" Value="Brute" />
+    <tag Name="SeveredHandBlueprint" Value="Kernelmethod_MM23_Fungal Brainspike" />
+    <tag Name="NoSleep" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Natural Fungal Brainspike" Inherits="Kernelmethod_MM23_Fungal Brainspike">
+    <mixin Name="Kernelmethod_MM23_Natural Fungal Equipment" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Cleaving Egregore" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
+    <part Name="Render" DisplayName="{{psychalflesh|cleaving}} fungal egregore" Tile="Kernelmethod_MM23/Cleaver.png" ColorString="&amp;w" DetailColor="R" />
+    <stat Name="Agility" sValue="20,(t-1)d2" />
+    <stat Name="AV" Value="8" />
+    <skill Name="Axe" />
+    <skill Name="Axe_Expertise" />
+    <skill Name="Axe_Cleave" />
+    <skill Name="Axe_HookAndDrag" />
+    <inventoryobject Blueprint="Kernelmethod_MM23_Natural Fungal Whipcleave" Number="2" />
+    <property Name="Role" Value="Brute" />
+    <tag Name="SeveredHandBlueprint" Value="Kernelmethod_MM23_Fungal Whipcleave" />
+    <tag Name="NoSleep" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Natural Fungal Whipcleave" Inherits="Kernelmethod_MM23_Fungal Whipcleave">
+    <mixin Name="Kernelmethod_MM23_Natural Fungal Equipment" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Merchant Fungus" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
+    <part Name="Render" DisplayName="fungal merchant" DetailColor="W" />
+    <stat Name="Ego" sValue="20,(t-1)d2" />
+    <skill Name="Persuasion" />
+    <skill Name="Persuasion_Intimidate" />
+    <skill Name="Persuasion_SnakeOiler" />
+    <mutation Name="ForceBubble" Level="4" />
+    <builder Name="Tier7Wares" />
+    <tag Name="Merchant" />
+    <tag Name="InventoryPopulationTable" Value="Kernelmethod_MM23_BaseFungusInventory" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Tinker Fungus" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
+    <part Name="Render" DisplayName="fungal tinkerer" DetailColor="c" />
+    <skill Name="Tactics_Throwing" />
+    <skill Name="Tinkering" />
+    <skill Name="Tinkering_Tinker1" />
+    <skill Name="Tinkering_Tinker2" />
+    <skill Name="Tinkering_Tinker3" />
+    <mutation Name="ForceBubble" Level="4" />
+    <inventoryobject Blueprint="Leather Apron" />
+    <tag Name="Merchant" />
+    <tag Name="InventoryPopulationTable" Value="Kernelmethod_MM23_BaseFungusInventory" />
+    <tag Name="GenericInventoryRestockerPopulationTable" Value="DiskMerchantInventory" />
+  </object>
+</objects>
