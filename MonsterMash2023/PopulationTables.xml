@@ -6,8 +6,8 @@
 
   <population Name="Kernelmethod_MM23_Fungal Guards">
     <group Name="Guards" Style="pickone">
-      <object Blueprint="Kernelmethod_MM23_Cleaving Egregore" Weight="60" />
-      <object Blueprint="Kernelmethod_MM23_Spiking Egregore" Weight="40" />
+      <object Blueprint="Kernelmethod_MM23_Cleaving Mycogrigori" Weight="60" />
+      <object Blueprint="Kernelmethod_MM23_Spiking Mycogrigori" Weight="40" />
     </group>
   </population>
 
@@ -56,20 +56,20 @@
     Butchery
     **********************
   -->
-  <population Name="Kernelmethod_MM23_Fungal Egregore Corpse">
+  <population Name="Kernelmethod_MM23_Mycogrigori Corpse">
     <object Blueprint="Kernelmethod_MM23_Extrasensory Tentacles" />
   </population>
 
-  <population Name="Kernelmethod_MM23_Spiking Fungal Egregore Corpse">
+  <population Name="Kernelmethod_MM23_Spiking Mycogrigori Corpse">
     <group Style="pickone">
-      <table Name="Kernelmethod_MM23_Fungal Egregore Corpse" />
+      <table Name="Kernelmethod_MM23_Mycogrigori Corpse" />
       <object Blueprint="Kernelmethod_MM23_Fungal Brainspike" />
     </group>
   </population>
 
-  <population Name="Kernelmethod_MM23_Cleaving Fungal Egregore Corpse">
+  <population Name="Kernelmethod_MM23_Cleaving Mycogrigori Corpse">
     <group Style="pickone">
-      <table Name="Kernelmethod_MM23_Fungal Egregore Corpse" />
+      <table Name="Kernelmethod_MM23_Mycogrigori Corpse" />
       <object Blueprint="Kernelmethod_MM23_Fungal Whipcleave" />
     </group>
   </population>

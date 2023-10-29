@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <objects>
-  <object Name="Kernelmethod_MM23_BaseFungalEgregore" Inherits="SapientMutatedFungus">
-    <part Name="Render" DisplayName="fungal egregore" Tile="Kernelmethod_MM23/Merchant.png" ColorString="&amp;w" DetailColor="w" />
+  <object Name="Kernelmethod_MM23_BaseMycogrigori" Inherits="SapientMutatedFungus">
+    <part Name="Render" DisplayName="mycogrigori" Tile="Kernelmethod_MM23/Merchant.png" ColorString="&amp;w" DetailColor="w" />
     <part Name="Brain" Mobile="true" Wanders="true" />
     <part Name="Description" Short="Flesh and fungus meld before you in a dizzying dance of symbiosis. Tentacles jut out from what you surmise was once a face; mycelial threads run up and down =pronouns.posessive= arms." />
-    <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Fungal Egregore Corpse" />
+    <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Mycogrigori Corpse" />
     <stat Name="Level" Value="30" />
     <stat Name="AV" Value="3" />
     <stat Name="Hitpoints" Value="180" />
@@ -23,12 +23,12 @@
     <tag Name="BaseObject" Value="*delete" />
   </object>
 
-  <object Name="Kernelmethod_MM23_Fungal Egregore Corpse" Inherits="Corpse">
-    <part Name="Render" DisplayName="fungal egregore corpse" />
+  <object Name="Kernelmethod_MM23_Mycogrigori Corpse" Inherits="Corpse">
+    <part Name="Render" DisplayName="mycogrigori corpse" />
     <part Name="Food" Message="It's sickening!" />
     <part Name="Description" Short="Life has ceased to flow through the mycelium woven between their limbs." />
     <part Name="Physics" Weight="120" />
-    <part Name="Butcherable" OnSuccess="@Kernelmethod_MM23_Fungal Egregore Corpse" />
+    <part Name="Butcherable" OnSuccess="@Kernelmethod_MM23_Mycogrigori Corpse" />
     <part Name="Commerce" Value="15" />
     <tag Name="Tier" Value="7" />
   </object>
@@ -38,9 +38,9 @@
   </object>
 
   <!-- Brainspike egregore -->
-  <object Name="Kernelmethod_MM23_Spiking Egregore" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
-    <part Name="Render" DisplayName="{{nanoneuro|spiking}} fungal egregore" Tile="Kernelmethod_MM23/Spiker.png" ColorString="&amp;m" DetailColor="w" />
-    <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Spiking Egregore Corpse" />
+  <object Name="Kernelmethod_MM23_Spiking Mycogrigori" Inherits="Kernelmethod_MM23_BaseMycogrigori">
+    <part Name="Render" DisplayName="{{nanoneuro|spiking}} mycogrigori" Tile="Kernelmethod_MM23/Spiker.png" ColorString="&amp;m" DetailColor="w" />
+    <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Spiking Mycogrigori Corpse" />
     <stat Name="Ego" sValue="20,(t-1)d2" />
     <stat Name="AV" Value="8" />
     <skill Name="LongBlades" />
@@ -54,8 +54,8 @@
     <tag Name="NoSleep" />
   </object>
 
-  <object Name="Kernelmethod_MM23_Spiking Egregore Corpse" Inherits="Kernelmethod_MM23_Fungal Egregore Corpse">
-    <part Name="Butcherable" OnSuccess="@Kernelmethod_MM23_Spiking Fungal Egregore Corpse" />
+  <object Name="Kernelmethod_MM23_Spiking Mycogrigori Corpse" Inherits="Kernelmethod_MM23_Mycogrigori Corpse">
+    <part Name="Butcherable" OnSuccess="@Kernelmethod_MM23_Spiking Mycogrigori Corpse" />
   </object>
 
   <object Name="Kernelmethod_MM23_Natural Fungal Brainspike" Inherits="Kernelmethod_MM23_Fungal Brainspike">
@@ -63,9 +63,9 @@
   </object>
 
   <!-- Cleaving egregore -->
-  <object Name="Kernelmethod_MM23_Cleaving Egregore" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
-    <part Name="Render" DisplayName="{{psychalflesh|cleaving}} fungal egregore" Tile="Kernelmethod_MM23/Cleaver.png" ColorString="&amp;R" DetailColor="w" />
-    <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Cleaving Egregore Corpse" />
+  <object Name="Kernelmethod_MM23_Cleaving Mycogrigori" Inherits="Kernelmethod_MM23_BaseMycogrigori">
+    <part Name="Render" DisplayName="{{psychalflesh|cleaving}} mycogrigori" Tile="Kernelmethod_MM23/Cleaver.png" ColorString="&amp;R" DetailColor="w" />
+    <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Cleaving Mycogrigori Corpse" />
     <stat Name="Agility" sValue="20,(t-1)d2" />
     <stat Name="AV" Value="8" />
     <skill Name="Axe" />
@@ -78,8 +78,8 @@
     <tag Name="NoSleep" />
   </object>
 
-  <object Name="Kernelmethod_MM23_Cleaving Egregore Corpse" Inherits="Kernelmethod_MM23_Fungal Egregore Corpse">
-    <part Name="Butcherable" OnSuccess="@Kernelmethod_MM23_Cleaving Fungal Egregore Corpse" />
+  <object Name="Kernelmethod_MM23_Cleaving Mycogrigori Corpse" Inherits="Kernelmethod_MM23_Mycogrigori Corpse">
+    <part Name="Butcherable" OnSuccess="@Kernelmethod_MM23_Cleaving Mycogrigori Corpse" />
   </object>
 
   <object Name="Kernelmethod_MM23_Natural Fungal Whipcleave" Inherits="Kernelmethod_MM23_Fungal Whipcleave">
@@ -87,8 +87,8 @@
   </object>
 
   <!-- Other creatures -->
-  <object Name="Kernelmethod_MM23_Merchant Fungus" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
-    <part Name="Render" DisplayName="fungal merchant" ColorString="W" />
+  <object Name="Kernelmethod_MM23_Merchant Fungus" Inherits="Kernelmethod_MM23_BaseMycogrigori">
+    <part Name="Render" DisplayName="mycogrigori merchant" ColorString="&amp;W" />
     <part Name="Brain" Wanders="false" />
     <stat Name="Ego" sValue="20,(t-1)d2" />
     <skill Name="Persuasion" />
@@ -100,8 +100,8 @@
     <tag Name="InventoryPopulationTable" Value="Kernelmethod_MM23_BaseFungusInventory" />
   </object>
 
-  <object Name="Kernelmethod_MM23_Tinker Fungus" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
-    <part Name="Render" DisplayName="fungal tinkerer" ColorString="c" />
+  <object Name="Kernelmethod_MM23_Tinker Fungus" Inherits="Kernelmethod_MM23_BaseMycogrigori">
+    <part Name="Render" DisplayName="mycogrigori tinkerer" ColorString="&amp;c" />
     <part Name="Brain" Wanders="false" />
     <skill Name="Tactics_Throwing" />
     <skill Name="Tinkering" />
