@@ -3,7 +3,7 @@
   <object Name="Kernelmethod_MM23_BaseMycogrigori" Inherits="SapientMutatedFungus">
     <part Name="Render" DisplayName="mycogrigori" Tile="Kernelmethod_MM23/Merchant.png" RenderString="F" ColorString="&amp;w" DetailColor="w" />
     <part Name="Brain" Mobile="true" Wanders="true" />
-    <part Name="Description" Short="Flesh and fungus meld before you in a dizzying dance of symbiosis. Tentacles jut out from what you surmise was once a face; mycelial threads run up and down =pronouns.posessive= arms." />
+    <part Name="Description" Short="Flesh and fungus meld before you in a dizzying dance of natural symbiosis. Mycelial threads run up and down =pronouns.possessive= body; tentacles jut out from what you surmise was once a face." />
     <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Mycogrigori Corpse" />
     <part Name="ConversationScript" ConversationID="Kernelmethod_MM23_Mycogrigori" />
     <stat Name="Level" Value="30" />
@@ -19,7 +19,6 @@
     <inventoryobject Blueprint="Kernelmethod_MM23_Natural Extrasensory Tentacles" />
     <inventoryobject Blueprint="@Kernelmethod_MM23_Fungal Infections" Number="1-2" />
     <tag Name="RandomGender" Value="nonspecific" />
-    <tag Name="ExcludeFromDynamicEncounters" />
     <tag Name="SeveredFaceBlueprint" Value="Kernelmethod_MM23_Extrasensory Tentacles" />
     <tag Name="BaseObject" Value="*delete" />
   </object>
@@ -99,6 +98,7 @@
     <builder Name="Tier7Wares" />
     <tag Name="Merchant" />
     <tag Name="InventoryPopulationTable" Value="Kernelmethod_MM23_BaseFungusInventory" />
+    <tag Name="ExcludeFromDynamicEncounters" />
   </object>
 
   <object Name="Kernelmethod_MM23_Tinker Fungus" Inherits="Kernelmethod_MM23_BaseMycogrigori">
@@ -114,6 +114,7 @@
     <tag Name="Merchant" />
     <tag Name="InventoryPopulationTable" Value="Kernelmethod_MM23_BaseFungusInventory" />
     <tag Name="GenericInventoryRestockerPopulationTable" Value="DiskMerchantInventory" />
+    <tag Name="ExcludeFromDynamicEncounters" />
   </object>
 
   <object Name="Kernelmethod_MM23_Elder Fungus" Inherits="Kernelmethod_MM23_BaseMycogrigori">
@@ -125,5 +126,6 @@
     <skill Name="Persuasion_Intimidate" />
     <inventoryobject Blueprint="Cloth Robe" />
     <tag Name="InventoryPopulationTable" Value="Kernelmethod_MM23_BaseFungusInventory" />
+    <tag Name="ExcludeFromDynamicEncounters" />
   </object>
 </objects>
