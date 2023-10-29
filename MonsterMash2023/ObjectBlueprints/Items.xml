@@ -21,6 +21,7 @@
     <part Name="Description" Short="Lightweight chitin slashes at empty air, swinging from the end of a writhing rope of flesh." />
     <part Name="MeleeWeapon" Stat="Agility" MaxStrengthBonus="8" BaseDamage="1d8+2" />
     <part Name="MutationOnEquip" ClassName="AdrenalControl2" Level="3" />
+    <tag Name="HitSound" Value="Sounds/Abilities/sfx_ability_mutation_stinger_tailWhip" />
     <tag Name="Tier" Value="7" />
   </object>
 
