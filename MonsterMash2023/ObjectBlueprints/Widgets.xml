@@ -45,6 +45,10 @@
     <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_StarappleFarm3x3.rpm" Width="3" Height="3" />
   </object>
 
+  <object Name="Kernelmethod_MM23_Merchant Stall 3x3" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_MerchantStall3x3.rpm" Width="3" Height="3" />
+  </object>
+
   <!--
     6x5 zone chunks
   -->
@@ -71,6 +75,10 @@
 
   <object Name="Kernelmethod_MM23_Bedroom 6x5" Inherits="Widget">
     <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_Bedroom6x5.rpm" Width="6" Height="5" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Merchant Stall 6x5" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_MerchantStall6x5.rpm" Width="6" Height="5" />
   </object>
 
   <!--
