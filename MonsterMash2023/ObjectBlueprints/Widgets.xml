@@ -65,6 +65,10 @@
     <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_StarappleFarm6x5.rpm" Width="6" Height="5" />
   </object>
 
+  <object Name="Kernelmethod_MM23_Training Room 6x5" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_TrainingRoom6x5.rpm" Width="6" Height="5" />
+  </object>
+
   <!--
     ***************
     Item spawners
