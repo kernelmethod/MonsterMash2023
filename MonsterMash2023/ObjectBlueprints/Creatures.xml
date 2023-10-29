@@ -15,6 +15,7 @@
     <skill Name="Multiweapon_Proficiency" />
     <skill Name="Multiweapon_Expertise" />
     <inventoryobject Blueprint="Kernelmethod_MM23_Natural Extrasensory Tentacles" />
+    <inventoryobject Blueprint="@Kernelmethod_MM23_Fungal Infections" Number="1-2" />
     <tag Name="RandomGender" Value="nonspecific" />
     <tag Name="ExcludeFromDynamicEncounters" />
     <tag Name="SeveredFaceBlueprint" Value="Kernelmethod_MM23_Extrasensory Tentacles" />
