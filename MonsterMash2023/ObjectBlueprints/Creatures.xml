@@ -5,6 +5,7 @@
     <part Name="Brain" Mobile="true" Wanders="true" />
     <part Name="Description" Short="Flesh and fungus meld before you in a dizzying dance of symbiosis. Tentacles jut out from what you surmise was once a face; mycelial threads run up and down =pronouns.posessive= arms." />
     <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Mycogrigori Corpse" />
+    <part Name="ConversationScript" ConversationID="Kernelmethod_MM23_Mycogrigori" />
     <stat Name="Level" Value="30" />
     <stat Name="AV" Value="3" />
     <stat Name="Hitpoints" Value="180" />
