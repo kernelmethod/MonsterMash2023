@@ -46,6 +46,7 @@
     <skill Name="LongBladesProficiency" />
     <skill Name="LongBladesSwipe" />
     <skill Name="LongBladesLunge" />
+    <mutation Name="Confusion" Level="1" />
     <inventoryobject Blueprint="Kernelmethod_MM23_Natural Fungal Brainspike" Number="2" />
     <property Name="Role" Value="Brute" />
     <tag Name="SeveredHandBlueprint" Value="Kernelmethod_MM23_Fungal Brainspike" />
