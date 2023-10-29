@@ -49,6 +49,10 @@
     <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_MerchantStall3x3.rpm" Width="3" Height="3" />
   </object>
 
+  <object Name="Kernelmethod_MM23_Mushroom Farm 3x3" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_MushroomFarm3x3.rpm" Width="3" Height="3" />
+  </object>
+
   <!--
     6x5 zone chunks
   -->
@@ -79,6 +83,10 @@
 
   <object Name="Kernelmethod_MM23_Merchant Stall 6x5" Inherits="Widget">
     <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_MerchantStall6x5.rpm" Width="6" Height="5" />
+  </object>
+
+  <object Name="Kernelmethod_MM23_Mushroom Farm 6x5" Inherits="Widget">
+    <part Name="MapChunkPlacement" Map="Kernelmethod_MM23_MushroomFarm6x5.rpm" Width="6" Height="5" />
   </object>
 
   <!--
@@ -112,5 +120,10 @@
   <!-- Tinker workshops -->
   <object Name="Kernelmethod_MM23_TinkerWorkshopObjectSpawner" Inherits="Widget">
     <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_TinkerWorkshopObjects" />
+  </object>
+
+  <!-- Mushroom farms -->
+  <object Name="Kernelmethod_MM23_MushroomFarmSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="@DynamicInheritsTable:FungusPuffer" />
   </object>
 </objects>
