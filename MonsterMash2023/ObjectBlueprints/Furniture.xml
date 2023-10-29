@@ -20,7 +20,7 @@
     *****************
   -->
   <object Name="Kernelmethod_MM23_Portal Holder L" Inherits="SolidHighTechInstallation">
-    <part Name="Render" DisplayName="waygate" Tile="Kernelmethod_MM23/PortalHolder.png" ColorString="&amp;c" DetailColor="W" />
+    <part Name="Render" DisplayName="waygate" Tile="Kernelmethod_MM23/PortalHolder.png" RenderString="186" ColorString="&amp;c" DetailColor="W" />
     <part Name="Description" Short="Energy courses through ancient palladium beams, holding in place a doorway across the stars." />
     <part Name="Physics" FlameTemperature="99999" VaporTemperature="1500" />
     <part Name="NoDamage" />

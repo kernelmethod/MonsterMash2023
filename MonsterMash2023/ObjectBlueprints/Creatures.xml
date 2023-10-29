@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <objects>
   <object Name="Kernelmethod_MM23_BaseMycogrigori" Inherits="SapientMutatedFungus">
-    <part Name="Render" DisplayName="mycogrigori" Tile="Kernelmethod_MM23/Merchant.png" ColorString="&amp;w" DetailColor="w" />
+    <part Name="Render" DisplayName="mycogrigori" Tile="Kernelmethod_MM23/Merchant.png" RenderString="F" ColorString="&amp;w" DetailColor="w" />
     <part Name="Brain" Mobile="true" Wanders="true" />
     <part Name="Description" Short="Flesh and fungus meld before you in a dizzying dance of symbiosis. Tentacles jut out from what you surmise was once a face; mycelial threads run up and down =pronouns.posessive= arms." />
     <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Mycogrigori Corpse" />
