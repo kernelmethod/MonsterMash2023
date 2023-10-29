@@ -17,6 +17,15 @@
     </group>
   </population>
 
+  <population Name="Kernelmethod_MM23_Fungal Infections">
+    <group Style="pickone">
+      <object Blueprint="WaxInfection" />
+      <object Blueprint="MumblesInfection" />
+      <object Blueprint="LuminousInfection" />
+      <object Blueprint="PuffInfection" />
+    </group>
+  </population>
+
   <!--
     **********************
     Table merges
@@ -40,6 +49,29 @@
     <table Name="DynamicInheritsTable:MissileWeapon:Tier6-8" Number="1" />
     <table Name="DynamicInheritsTable:Energy Cell:Tier4-8" Number="3" />
     <table Name="DynamicObjectsTable:Grenades:Tier6-8" Number="4-5" />
+  </population>
+
+  <!--
+    **********************
+    Butchery
+    **********************
+  -->
+  <population Name="Kernelmethod_MM23_Fungal Egregore Corpse">
+    <object Blueprint="Kernelmethod_MM23_Extrasensory Tentacles" />
+  </population>
+
+  <population Name="Kernelmethod_MM23_Spiking Fungal Egregore Corpse">
+    <group Style="pickone">
+      <table Name="Kernelmethod_MM23_Fungal Egregore Corpse" />
+      <object Blueprint="Kernelmethod_MM23_Fungal Brainspike" />
+    </group>
+  </population>
+
+  <population Name="Kernelmethod_MM23_Cleaving Fungal Egregore Corpse">
+    <group Style="pickone">
+      <table Name="Kernelmethod_MM23_Fungal Egregore Corpse" />
+      <object Blueprint="Kernelmethod_MM23_Fungal Whipcleave" />
+    </group>
   </population>
 
   <!--
