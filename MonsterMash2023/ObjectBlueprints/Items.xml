@@ -39,6 +39,6 @@
     <part Name="Physics" Weight="4" />
     <part Name="Armor" AV="0" DV="1" />
     <part Name="IntPropertyChanger" AffectedProperty="BioScannerEquipped" Amount="1" ChargeUse="0" WorksOnWearer="true" NameForStatus="Bioscanning" />
-    <part Name="MutationOnEquip" ClassName="Sense Psychic" />
+    <part Name="MutationOnEquip" ClassName="SensePsychic" />
   </object>
 </objects>
