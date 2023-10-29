@@ -35,7 +35,7 @@
   <object Name="Kernelmethod_MM23_Extrasensory Tentacles" Inherits="BaseMask">
     <mixin Name="Kernelmethod_MM23_Fungal Equipment" />
     <part Name="Render" DisplayName="{{w|extrasensory tentacles}}" RenderString="247" Tile="Kernelmethod_MM23/FaceTentacles.png" ColorString="&amp;w" DetailColor="R" />
-    <part Name="Description" Short="Hyphae protrude from several attachment points in the back, an invitation to brave adventurers." />
+    <part Name="Description" Short="Hyphae protrude from several attachment points in the back, an invitation to intrepid adventurers." />
     <part Name="Physics" Weight="4" />
     <part Name="Armor" AV="0" DV="1" />
     <part Name="IntPropertyChanger" AffectedProperty="BioScannerEquipped" Amount="1" ChargeUse="0" WorksOnWearer="true" NameForStatus="Bioscanning" />
