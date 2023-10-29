@@ -3,7 +3,7 @@
   <object Name="Kernelmethod_MM23_BaseFungalEgregore" Inherits="SapientMutatedFungus">
     <part Name="Render" DisplayName="fungal egregore" Tile="Kernelmethod_MM23/Merchant.png" ColorString="&amp;w" DetailColor="w" />
     <part Name="Brain" Mobile="true" Wanders="true" />
-    <part Name="Description" Short="Flesh and fungus meld before you in a dizzying dance of symbiosis." />
+    <part Name="Description" Short="Flesh and fungus meld before you in a dizzying dance of symbiosis. Tentacles jut out from what you surmise was once a face; mycelial threads run up and down =pronouns.posessive= arms." />
     <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Fungal Egregore Corpse" />
     <stat Name="Level" Value="30" />
     <stat Name="AV" Value="3" />
@@ -14,6 +14,7 @@
     <!-- For versions > 2.0.206.0 -->
     <skill Name="Multiweapon_Proficiency" />
     <skill Name="Multiweapon_Expertise" />
+    <mutation Name="Telepathy" />
     <inventoryobject Blueprint="Kernelmethod_MM23_Natural Extrasensory Tentacles" />
     <inventoryobject Blueprint="@Kernelmethod_MM23_Fungal Infections" Number="1-2" />
     <tag Name="RandomGender" Value="nonspecific" />
@@ -38,7 +39,7 @@
 
   <!-- Brainspike egregore -->
   <object Name="Kernelmethod_MM23_Spiking Egregore" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
-    <part Name="Render" DisplayName="{{nanoneuro|spiking}} fungal egregore" Tile="Kernelmethod_MM23/Spiker.png" ColorString="&amp;w" DetailColor="m" />
+    <part Name="Render" DisplayName="{{nanoneuro|spiking}} fungal egregore" Tile="Kernelmethod_MM23/Spiker.png" ColorString="&amp;m" DetailColor="w" />
     <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Spiking Egregore Corpse" />
     <stat Name="Ego" sValue="20,(t-1)d2" />
     <stat Name="AV" Value="8" />
@@ -63,7 +64,7 @@
 
   <!-- Cleaving egregore -->
   <object Name="Kernelmethod_MM23_Cleaving Egregore" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
-    <part Name="Render" DisplayName="{{psychalflesh|cleaving}} fungal egregore" Tile="Kernelmethod_MM23/Cleaver.png" ColorString="&amp;w" DetailColor="R" />
+    <part Name="Render" DisplayName="{{psychalflesh|cleaving}} fungal egregore" Tile="Kernelmethod_MM23/Cleaver.png" ColorString="&amp;R" DetailColor="w" />
     <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Cleaving Egregore Corpse" />
     <stat Name="Agility" sValue="20,(t-1)d2" />
     <stat Name="AV" Value="8" />
@@ -87,7 +88,7 @@
 
   <!-- Other creatures -->
   <object Name="Kernelmethod_MM23_Merchant Fungus" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
-    <part Name="Render" DisplayName="fungal merchant" DetailColor="W" />
+    <part Name="Render" DisplayName="fungal merchant" ColorString="W" />
     <part Name="Brain" Wanders="false" />
     <stat Name="Ego" sValue="20,(t-1)d2" />
     <skill Name="Persuasion" />
@@ -100,7 +101,7 @@
   </object>
 
   <object Name="Kernelmethod_MM23_Tinker Fungus" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
-    <part Name="Render" DisplayName="fungal tinkerer" DetailColor="c" />
+    <part Name="Render" DisplayName="fungal tinkerer" ColorString="c" />
     <part Name="Brain" Wanders="false" />
     <skill Name="Tactics_Throwing" />
     <skill Name="Tinkering" />
