@@ -116,6 +116,7 @@
     <group Style="pickone">
       <object Blueprint="Kernelmethod_MM23_Hookah Spot" Weight="50" />
       <object Blueprint="Kernelmethod_MM23_Library 3x3" Weight="50" />
+      <object Blueprint="Kernelmethod_MM23_Starapple Farm 3x3" Weight="50" />
       <object Blueprint="Kernelmethod_MM23_Tinker Workshop" Weight="50" />
     </group>
   </population>
@@ -124,6 +125,7 @@
     <group Style="pickone">
       <object Blueprint="Kernelmethod_MM23_Large Hookah Spot" Weight="50" />
       <object Blueprint="Kernelmethod_MM23_Library 6x5" Weight="50" />
+      <object Blueprint="Kernelmethod_MM23_Starapple Farm 6x5" Weight="50" />
       <object Blueprint="Kernelmethod_MM23_Medbay" Weight="10" />
     </group>
   </population>
