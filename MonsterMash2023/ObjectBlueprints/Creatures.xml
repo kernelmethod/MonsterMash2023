@@ -13,6 +13,7 @@
     <skill Name="Multiweapon_Proficiency" />
     <skill Name="Multiweapon_Expertise" />
     <inventoryobject Blueprint="Kernelmethod_MM23_Natural Extrasensory Tentacles" />
+    <tag Name="RandomGender" Value="nonspecific" />
     <tag Name="ExcludeFromDynamicEncounters" />
   </object>
 
