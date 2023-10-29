@@ -2,6 +2,8 @@
 <objects>
   <object Name="Kernelmethod_MM23_BasePortal" Inherits="InertObject">
     <part Name="Render" DisplayName="portal" RenderString="O" ColorString="&amp;o"/>
+    <part Name="Physics" Solid="true" Real="true" Weight="10000" />
+    <part Name="Springy" Factor="0.0" />
     <part Name="Description" Short="The shimmering folds of space beckon you." />
     <part Name="AnimatedMaterialGeneric" AnimationLength="24" LowFrameOffset="1" HighFrameOffset="1" TileAnimationFrames="0=Kernelmethod_MM23/Portal1.png,4=Kernelmethod_MM23/Portal2.png,8=Kernelmethod_MM23/Portal3.png,12=Kernelmethod_MM23/Portal4.png,16=Kernelmethod_MM23/Portal5.png,20=Kernelmethod_MM23/Portal1.png" />
     <part Name="SoundRender" Sound="Sounds/Abilities/sfx_ability_spacetimeVortex_lp" />

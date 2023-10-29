@@ -5,7 +5,7 @@
   </object>
 
   <object Name="Kernelmethod_MM23_FungiSpawner" Inherits="Widget">
-    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_Fungi" Range="5" />
+    <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_Fungi" Range="2" />
   </object>
 
   <!--

@@ -19,6 +19,19 @@
 
   <!--
     **********************
+    Table merges
+    **********************
+  -->
+  <population Name="BaroqueRuinsZoneGlobals" Load="Merge">
+    <object Blueprint="Kernelmethod_MM23_Waygate Spawner" Chance="2" />
+  </population>
+
+  <population Name="MoonStairZoneGlobals-Surface" Load="Merge">
+    <object Blueprint="Kernelmethod_MM23_Waygate Spawner" Chance="1" />
+  </population>
+
+  <!--
+    **********************
     Creature inventories
     **********************
   -->
