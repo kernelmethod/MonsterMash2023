@@ -115,4 +115,11 @@
     <tag Name="InventoryPopulationTable" Value="Kernelmethod_MM23_BaseFungusInventory" />
     <tag Name="GenericInventoryRestockerPopulationTable" Value="DiskMerchantInventory" />
   </object>
+
+  <object Name="Kernelmethod_MM23_Elder Fungus" Inherits="Kernelmethod_MM23_BaseMycogrigori">
+    <part Name="Render" DisplayName="mycogrigori elder" ColorString="&amp;y" Tile="Kernelmethod_MM23/Elder.png" />
+    <skill Name="Persuasion" />
+    <skill Name="Persuasion_Berate" />
+    <tag Name="InventoryPopulationTable" Value="Kernelmethod_MM23_BaseFungusInventory" />
+  </object>
 </objects>
