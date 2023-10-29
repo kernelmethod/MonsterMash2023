@@ -2,7 +2,7 @@
 <objects>
   <object Name="Kernelmethod_MM23_BaseFungalEgregore" Inherits="SapientMutatedFungus">
     <part Name="Render" DisplayName="fungal egregore" Tile="Kernelmethod_MM23/Merchant.png" ColorString="&amp;w" DetailColor="w" />
-    <part Name="Brain" Mobile="true" />
+    <part Name="Brain" Mobile="true" Wanders="true" />
     <stat Name="Level" Value="30" />
     <stat Name="AV" Value="3" />
     <stat Name="Hitpoints" Value="180" />
@@ -58,6 +58,7 @@
 
   <object Name="Kernelmethod_MM23_Merchant Fungus" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
     <part Name="Render" DisplayName="fungal merchant" DetailColor="W" />
+    <part Name="Brain" Wanders="false" />
     <stat Name="Ego" sValue="20,(t-1)d2" />
     <skill Name="Persuasion" />
     <skill Name="Persuasion_Intimidate" />
@@ -70,6 +71,7 @@
 
   <object Name="Kernelmethod_MM23_Tinker Fungus" Inherits="Kernelmethod_MM23_BaseFungalEgregore">
     <part Name="Render" DisplayName="fungal tinkerer" DetailColor="c" />
+    <part Name="Brain" Wanders="false" />
     <skill Name="Tactics_Throwing" />
     <skill Name="Tinkering" />
     <skill Name="Tinkering_Tinker1" />
