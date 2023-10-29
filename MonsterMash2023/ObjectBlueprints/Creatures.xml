@@ -15,6 +15,7 @@
     <inventoryobject Blueprint="Kernelmethod_MM23_Natural Extrasensory Tentacles" />
     <tag Name="RandomGender" Value="nonspecific" />
     <tag Name="ExcludeFromDynamicEncounters" />
+    <tag Name="SeveredFaceBlueprint" Value="Kernelmethod_MM23_Extrasensory Tentacles" />
   </object>
 
   <object Name="Kernelmethod_MM23_Natural Extrasensory Tentacles" Inherits="Kernelmethod_MM23_Extrasensory Tentacles">
