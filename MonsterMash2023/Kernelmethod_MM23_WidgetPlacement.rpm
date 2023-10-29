@@ -176,7 +176,9 @@
   <cell X="5" Y="2"></cell>
   <cell X="6" Y="2"></cell>
   <cell X="7" Y="2"></cell>
-  <cell X="8" Y="2"></cell>
+  <cell X="8" Y="2">
+    <object Name="Kernelmethod_MM23_ElderFungiSpawner"></object>
+  </cell>
   <cell X="9" Y="2"></cell>
   <cell X="10" Y="2"></cell>
   <cell X="11" Y="2"></cell>

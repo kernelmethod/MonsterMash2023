@@ -8,6 +8,10 @@
     <part Name="PopulationSpawner" Specification="@Kernelmethod_MM23_Fungi" Range="2" />
   </object>
 
+  <object Name="Kernelmethod_MM23_ElderFungiSpawner" Inherits="Widget">
+    <part Name="PopulationSpawner" Specification="Kernelmethod_MM23_Elder Fungus" Range="3" />
+  </object>
+
   <!--
     ********************************
     Zone chunks for waygate rooms
