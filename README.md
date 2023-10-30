@@ -15,7 +15,7 @@
 > Alas, waygates posed an existential threat to one of the aristocracy's most
 > powerful yokes, and they were quickly outlawed. Few were ever produced, and
 > fewer yet remain functional to this day. Yet the last waygates retain their
-> original function: providing refuge for the dispossessed.\
+> original function: providing refuge for the dispossessed.
 
 This mod adds _mycogrigori_, a society of fungal-human symbiotes who occupy
 ancient waygates left by the Eaters.
