@@ -8,7 +8,7 @@ Mixins designed for use by other objects.
     <part Name="Springy" Factor="0.8" />
     <part Name="Cursed" RevealInDescription="false" />
     <part Name="AddsRep" Faction="Fungi:100,Consortium:-100" />
-    <part Name="Examiner" Unknown="UnknownStrangeMeat" Alternate="UnknownStrangeOrgan" Complexity="7" Difficulty="2" />
+    <part Name="Examiner" Unknown="UnknownStrangeMeat" Alternate="Kernelmethod_MM23_UnknownFungalGraft" Complexity="7" Difficulty="3" />
     <intproperty Name="Inorganic" Value="0" />
     <intproperty Name="Bleeds" Value="0" />
     <tag Name="Fungus" />
