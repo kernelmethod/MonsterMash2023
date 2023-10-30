@@ -14,7 +14,7 @@
     <node ID="Start">
       <text>
         Welcome to our abode, wanderer.~
-        Go in peace.~
+        Be at peace, traveler.~
         Live and drink, metazoon.~
         Live and drink, =player.formalAddressTerm=.
       </text>
@@ -26,7 +26,7 @@
 
     <node ID="AboutTheMycogrigori">
       <text>
-        We are mycogrigori, the union of humanity and fungi. We have shed the solitude of single-beingness and now share our minds and bodies.
+        We are mycogrigori, the union of humanity and fungi, who have shed the solitude of single-beingness.
       </text>
       <choice GotoID="AboutTheWaygate">What was that device I stepped through to get here?</choice>
       <choice GotoID="AboutTheAlcove">What is this place?</choice>
@@ -35,7 +35,9 @@
 
     <node ID="AboutTheAlcove">
       <text>
-        This hideaway provides asylum to mycogrigori such as ourselves.
+        This hideaway provides asylum to our fellow mycogrigori. Many humans do not look kindly upon the idea of collective existence. We challenge their self-concept, so more often than not we are met with violence.
+
+        As for this alcove? It lies on the other end of a great tunnel across the cosmos. Sadly, the Eaters never left a starmap for their waygates; so we cannot say where we are in relation to Qud.
       </text>
       <choice GotoID="AboutTheMycogrigori">What kind of creature are you?</choice>
       <choice GotoID="AboutTheWaygate">What was that device I stepped through to get here?</choice>
@@ -53,9 +55,9 @@
 
     <node ID="AboutTheWaygate2">
       <text>
-        As the heavens above reached down and beckoned the people of Qud into its embrace, the cybernauts of the time concocted a solution: waygates that could spacefold their entrants across vast distances. Hundreds of hermetically-sealed alcoves were constructed on remote asteroids and connected to waygates, where they served as a refuge for the dispossessed.
+        As the heavens above reached down and beckoned the people of Qud into its embrace, the cybernauts of the time concocted a solution: a contraption that could spacefold passengers across vast distances. Hundreds of hermetically-sealed alcoves were constructed on remote asteroids and connected via a waygate network, where they served as a refuge for the dispossessed.
 
-        Alas, waygates posed an existential threat to one of the aristocracy's most powerful yokes, and they were quickly outlawed. Few were ever produced, and fewer yet remain intact to this day.
+        Alas, waygates posed an existential threat to one of the aristocracy's most powerful yokes, and they were quickly outlawed. Few were ever produced, and fewer yet remain functional to this day.
       </text>
       <choice GotoID="AboutTheMycogrigori">What kind of creature are you?</choice>
       <choice GotoID="AboutTheAlcove">What is this place?</choice>
