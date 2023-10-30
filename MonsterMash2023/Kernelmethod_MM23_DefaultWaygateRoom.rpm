@@ -1262,30 +1262,39 @@
   <cell X="79" Y="8"></cell>
   <cell X="0" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="1" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="2" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="3" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="4" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="5" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="6" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="7" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="8" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="9" Y="9">
     <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
@@ -1301,27 +1310,35 @@
   </cell>
   <cell X="12" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="13" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="14" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="15" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="16" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="17" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="18" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="19" Y="9">
     <object Name="SpawnBlocker"></object>
+    <object Name="Kernelmethod_MM23_Extradimensional Wall"></object>
   </cell>
   <cell X="20" Y="9"></cell>
   <cell X="21" Y="9"></cell>
