@@ -21,6 +21,7 @@
     <tag Name="RandomGender" Value="nonspecific" />
     <tag Name="SeveredFaceBlueprint" Value="Kernelmethod_MM23_Extrasensory Tentacles" />
     <tag Name="BaseObject" Value="*delete" />
+    <tag Name="ImmuneToFungus" />
   </object>
 
   <object Name="Kernelmethod_MM23_Mycogrigori Corpse" Inherits="Corpse">
