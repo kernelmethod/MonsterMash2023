@@ -5,7 +5,7 @@
 > in the lower castes were forced out of their homes; those who were allowed to
 > remain had astronomical rents levied upon them.
 >
-> As the heavens above reached down and beckoned the people of Qud into its
+> As the heavens above reached down and beckoned the denizens of Qud into its
 > embrace, the cybernauts of the time concocted a solution: a contraption that
 > could spacefold passengers across vast distances. Hundreds of
 > hermetically-sealed alcoves were constructed on remote asteroids and
@@ -17,7 +17,7 @@
 > fewer yet remain functional to this day. Yet the last waygates retain their
 > original function: providing refuge for the dispossessed.
 
-This mod adds _mycogrigori_, a society of fungal-human symbiotes who occupy
+This mod adds _mycogrigori_, a society of fungal-human symbiotes who inhabit
 ancient waygates left by the Eaters.
 
 ## Features
