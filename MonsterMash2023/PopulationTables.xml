@@ -135,6 +135,11 @@
     <table Name="Kernelmethod_MM23_ScienceObjects" />
   </population>
 
+  <!-- Garbage dumps -->
+  <population Name="Kernelmethod_MM23_Garbage">
+    <object Blueprint="Garbage" Chance="60" />
+  </population>
+
   <!--
     **********************
     Zone chunks
@@ -148,6 +153,7 @@
       <object Blueprint="Kernelmethod_MM23_Tinker Workshop" Weight="50" />
       <object Blueprint="Kernelmethod_MM23_Merchant Stall 3x3" Weight="50" />
       <object Blueprint="Kernelmethod_MM23_Mushroom Farm 3x3" Weight="50" />
+      <object Blueprint="Kernelmethod_MM23_Garbage Dump 3x3" Weight="30" />
     </group>
   </population>
 
@@ -160,7 +166,8 @@
       <object Blueprint="Kernelmethod_MM23_Bedroom 6x5" Weight="50" />
       <object Blueprint="Kernelmethod_MM23_Merchant Stall 6x5" Weight="50" />
       <object Blueprint="Kernelmethod_MM23_Mushroom Farm 6x5" Weight="50" />
-      <object Blueprint="Kernelmethod_MM23_Medbay" Weight="10" />
+      <object Blueprint="Kernelmethod_MM23_Medbay" Weight="50" />
+      <object Blueprint="Kernelmethod_MM23_Garbage Dump 6x5" Weight="30" />
     </group>
   </population>
 
