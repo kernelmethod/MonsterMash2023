@@ -12,7 +12,7 @@
     <skill Name="Pistol" />
     <skill Name="Pistol_SteadyHands" />
     <skill Name="Rifles" />
-    <skill Name="Rifles_SteadyHands" />
+    <skill Name="Rifle_SteadyHands" />
     <skill Name="Tactics_Throwing" />
     <!-- For versions < 2.0.206.0 -->
     <skill Name="Dual_Wield" />
