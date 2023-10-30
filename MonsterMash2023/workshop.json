@@ -4,5 +4,5 @@
   "Description": "[h1]Mycogrigoric Alcoves[/h1]\n\nThis mod adds [i]mycogrigori[/i] a society of fungal-human symbiotes who occupy ancient waygates left by the Eaters.\n\n[h2]Features[/h2]\n\n[list]\n[*] Adds waygates for mycogrigori alcoves, which are an uncommon spawn in baroque ruins.\n[*] Several new living graft items:\n[list]\n[*] Fungal brainspikes, a new long blade that attacks mental armor and applies holographic bleeding.\n[*] Fungal whipcleaves, an agility-scaling axe that grants adrenal control.\n[*] Extrasensory tentacles, a new mask that provides bioscanning and the Sense Psychic mutation.\n[/list]\n[/list]",
   "Tags": "Creature",
   "Visibility": "0",
-  "ImagePath": "preview.png"
+  "ImagePath": "alcove.png"
 }
