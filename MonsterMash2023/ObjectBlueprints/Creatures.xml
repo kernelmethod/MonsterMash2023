@@ -9,6 +9,11 @@
     <stat Name="Level" Value="30" />
     <stat Name="AV" Value="3" />
     <stat Name="Hitpoints" Value="180" />
+    <skill Name="Pistol" />
+    <skill Name="Pistol_SteadyHands" />
+    <skill Name="Rifles" />
+    <skill Name="Rifles_SteadyHands" />
+    <skill Name="Tactics_Throwing" />
     <!-- For versions < 2.0.206.0 -->
     <skill Name="Dual_Wield" />
     <skill Name="Dual_Wield_Offhand_Strikes" />
@@ -42,7 +47,7 @@
   <object Name="Kernelmethod_MM23_Spiking Mycogrigori" Inherits="Kernelmethod_MM23_BaseMycogrigori">
     <part Name="Render" DisplayName="{{nanoneuro|spiking}} mycogrigori" Tile="Kernelmethod_MM23/Spiker.png" ColorString="&amp;m" DetailColor="w" />
     <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Spiking Mycogrigori Corpse" />
-    <stat Name="Ego" sValue="20,(t-1)d2" />
+    <stat Name="Ego" sValue="24,(t-1)d2" />
     <stat Name="AV" Value="8" />
     <skill Name="LongBlades" />
     <skill Name="LongBladesProficiency" />
@@ -67,7 +72,7 @@
   <object Name="Kernelmethod_MM23_Cleaving Mycogrigori" Inherits="Kernelmethod_MM23_BaseMycogrigori">
     <part Name="Render" DisplayName="{{psychalflesh|cleaving}} mycogrigori" Tile="Kernelmethod_MM23/Cleaver.png" ColorString="&amp;R" DetailColor="w" />
     <part Name="Corpse" CorpseChance="15" CorpseBlueprint="Kernelmethod_MM23_Cleaving Mycogrigori Corpse" />
-    <stat Name="Agility" sValue="20,(t-1)d2" />
+    <stat Name="Agility" sValue="24,(t-1)d2" />
     <stat Name="AV" Value="8" />
     <skill Name="Axe" />
     <skill Name="Axe_Expertise" />
@@ -105,7 +110,6 @@
   <object Name="Kernelmethod_MM23_Tinker Fungus" Inherits="Kernelmethod_MM23_BaseMycogrigori">
     <part Name="Render" DisplayName="mycogrigori tinkerer" ColorString="&amp;c" />
     <part Name="Brain" Wanders="false" />
-    <skill Name="Tactics_Throwing" />
     <skill Name="Tinkering" />
     <skill Name="Tinkering_Tinker1" />
     <skill Name="Tinkering_Tinker2" />
