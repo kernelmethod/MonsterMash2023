@@ -49,16 +49,16 @@
       <text>
         A waygate, =player.formalAddressTerm=, a passage across the stars.
 
-        From what we can gather, as the Eater's interstellar empire approached its zenith, the land of Qud was carved up and staked out by the gentry. Many in the lower castes were forced out of their homes; those who were allowed to remain had astronomical rents levied upon them.
+        From what we can gather, as the Eater's interstellar empire approached its zenith, the land of Qud was carved up and staked out by aristocrats. Many in the lower castes were forced out of their homes; those who were allowed to remain had astronomical rents levied upon them.
       </text>
       <choice GotoID="AboutTheWaygate2">...</choice>
     </node>
 
     <node ID="AboutTheWaygate2">
       <text>
-        As the heavens above reached down and beckoned the people of Qud into its embrace, the cybernauts of the time concocted a solution: a contraption that could spacefold passengers across vast distances. Hundreds of hermetically-sealed alcoves were constructed on remote asteroids and connected via a waygate network, where they served as a refuge for the dispossessed.
+        As the heavens above reached down and beckoned the people of Qud into its embrace, the cybernauts of the time concocted a solution: a contraption that could spacefold passengers across vast distances. Hundreds of hermetically-sealed alcoves were constructed on remote asteroids and connected via a waygate network, providing shelter for those who had suffered under the rule of the landed gentry.
 
-        Alas, waygates posed an existential threat to one of the aristocracy's most powerful yokes, and they were quickly outlawed. Few were ever produced, and fewer yet remain functional to this day.
+        Alas, waygates posed an existential threat to one of the aristocracy's most powerful yokes, and they were quickly outlawed. Few were ever produced, and fewer yet remain functional to this day. Yet the last waygates retain their original function: providing refuge for the dispossessed.
       </text>
       <choice GotoID="AboutTheMycogrigori">What kind of creature are you?</choice>
       <choice GotoID="AboutTheAlcove">What is this place?</choice>
