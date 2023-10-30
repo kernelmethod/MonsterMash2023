@@ -13,3 +13,5 @@ ancient waygates left by the Eaters.
   * Fungal whipcleaves, an agility-scaling axe that grants adrenal control.
   * Extrasensory tentacles, a new mask that provides bioscanning and the Sense
     Psychic mutation.
+
+> Mycogrigori Alcoves by kernelmethod is marked with CC0 1.0 
