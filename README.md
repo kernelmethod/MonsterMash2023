@@ -1,4 +1,4 @@
-# Mycogrigori alcoves
+# Mycogrigoric Alcoves
 
 This mod adds _mycogrigori_, a society of fungal-human symbiotes who occupy
 ancient waygates left by the Eaters.
@@ -14,4 +14,4 @@ ancient waygates left by the Eaters.
   * Extrasensory tentacles, a new mask that provides bioscanning and the Sense
     Psychic mutation.
 
-> Mycogrigori Alcoves by kernelmethod is marked with CC0 1.0 
+> Mycogrigoric Alcoves by kernelmethod is marked with CC0 1.0
